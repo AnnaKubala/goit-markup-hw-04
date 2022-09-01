@@ -536,7 +536,7 @@ ul {
   display: flex;
   width: 16px;
   height: 16px;
-  background-color: red;
+  background-color: blue;
   padding-right: 10px;
   justify-content: center;
 }
