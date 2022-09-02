@@ -165,12 +165,17 @@ ul {
 }
 
 .h1 {
+  background-color: rgba(47, 48, 58, 0.4);
+  background-image: url(/images/img-h1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   display: flex;
   flex-direction: column;
   height: 600px;
 
   justify-content: center;
-  background: var(--footer_bg-color);
 }
 .h1__text {
   display: flex;
