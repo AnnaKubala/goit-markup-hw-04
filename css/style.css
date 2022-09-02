@@ -224,6 +224,13 @@ ul {
   margin: 0 auto;
   gap: 30px;
 }
+.div__feature-box {
+  width: 270px;
+  height: 120px;
+
+  background: var(--filters-color);
+  border-radius: 4px;
+}
 
 .features__header {
   font-style: normal;
