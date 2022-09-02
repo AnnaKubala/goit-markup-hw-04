@@ -116,10 +116,8 @@ figure {
 .contact {
   display: inline-flex;
 
-  padding-left: 10px;
+  padding-left: 315px;
   gap: 10px;
-  /* width:315px;
-  height: 16px; */
   justify-content: center;
   align-items: center;
 
@@ -134,11 +132,13 @@ figure {
   display: flex;
   color: var(--text2-color);
   cursor: pointer;
+  gap: 10px;
 }
 .tel {
   display: flex;
   color: var(--text2-color);
   cursor: pointer;
+  gap: 10px;
 }
 .contact a {
   text-decoration: none;
@@ -391,7 +391,7 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-color: var(--main-color);
-  fill:var(--fill-color);
+  fill: var(--fill-color);
 }
 .social__media-icon:hover svg,
 .social__media-icon:focus svg {
@@ -590,17 +590,26 @@ ul {
 /* svg{
   
 } */
-.icons__header {
+.header {
   display: ilnine-flex;
   flex-direction: row;
 
-  background-color: rgba(84, 182, 239, 20%);
-  /* margin-right: 10px; */
   justify-content: center;
 }
 .icon-envelope {
   display: flex;
+  fill: var(--fill-color);
+  cursor: pointer;
 }
 .icon-smartphone {
   display: flex;
+  fill: var(--fill-color);
+  cursor: pointer;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus,
+.icon-smartphone:hover,
+.icon-smartphone:focus {
+  fill: var(--brand-color);
 }
