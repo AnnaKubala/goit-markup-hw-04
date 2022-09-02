@@ -523,6 +523,11 @@ ul {
   width: 246px;
   height: 21px;
 }
+.address-box {
+  width: 246px;
+  height: 21px;
+  margin-right: 70px;
+}
 .contact_footer {
   display: block;
   padding-inline-start: 0px;
@@ -550,6 +555,30 @@ ul {
   display: block;
 
   background: var(--footer_bg-color);
+}
+.social__footer {
+  /* display: block; */
+  margin-top: 0;
+
+  width: 206px;
+  height: 80px;
+}
+.join {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+.social__footer-box {
+  display: flex;
+  flex-direction: row;
+  height: 44px;
 }
 /* ----------------------------------------------STRONA PORTFOLIO-------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------------------- */
