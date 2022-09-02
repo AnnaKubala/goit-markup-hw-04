@@ -231,7 +231,9 @@ ul {
   background: var(--filters-color);
   border-radius: 4px;
 }
-
+.icon-antenna {
+  margin: 25px 100px;
+}
 .features__header {
   font-style: normal;
   font-weight: 700;
