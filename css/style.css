@@ -332,7 +332,6 @@ ul {
   display: inline-block;
 
   width: 270px;
-  height: 106px;
 }
 .our__team_name-text {
   display: flex;
@@ -373,7 +372,7 @@ ul {
 .social__media-box {
   width: 206px;
   height: 44px;
-  /* margin: 16px 32px 18px; */
+  margin: 16px 32px 18px;
 }
 .social__media-icon {
   width: 40px;
