@@ -233,6 +233,13 @@ ul {
   background: var(--filters-color);
   border-radius: 4px;
 }
+.div__feature-box:hover,
+.div__feature-box:focus {
+  border-radius: 4px;
+  border-color: var(--brand-color);
+  border-style: solid;
+}
+
 .icon-antenna {
   margin: 25px 100px;
 }
