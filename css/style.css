@@ -370,6 +370,17 @@ ul {
 .our__team_text-4 {
   width: 87px;
 }
+
+.social__media-box{
+  width:206px;
+  height: 44px;
+  /* margin: 16px 32px 18px; */
+}
+.social__media-icon{
+  width: 40px;
+  height: 40px;
+}
+
 .container__footer {
   padding-top: 60px;
   padding-bottom: 60px;
