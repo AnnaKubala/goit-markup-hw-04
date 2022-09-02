@@ -317,7 +317,6 @@ ul {
   margin-inline-end: 0px;
   margin-right: 30px;
 
-  height: 368px;
   width: 270px;
   background-color: var(--main-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -371,12 +370,12 @@ ul {
   width: 87px;
 }
 
-.social__media-box{
-  width:206px;
+.social__media-box {
+  width: 206px;
   height: 44px;
   /* margin: 16px 32px 18px; */
 }
-.social__media-icon{
+.social__media-icon {
   width: 40px;
   height: 40px;
 }
