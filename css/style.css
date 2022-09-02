@@ -237,6 +237,12 @@ ul {
 .icon-clock {
   margin: 25px 101px;
 }
+.icon-diagram {
+  margin: 33px 100px;
+}
+.icon-astronaut {
+  margin: 25px 100px;
+}
 .features__header {
   font-style: normal;
   font-weight: 700;
