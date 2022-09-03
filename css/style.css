@@ -633,11 +633,13 @@ ul {
   gap: 8px;
   display: inline-flex;
 }
-.filters__active:hover {
+.filters__active:hover,
+.filters__active:focus {
   background-color: var(--brand-color);
   color: var(--main-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 .filter-1 {
   width: 121px;
