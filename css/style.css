@@ -100,7 +100,6 @@ figure {
 }
 .navigation__agencja {
   display: flex;
-
   cursor: pointer;
 }
 .navigation__portfolio {
@@ -113,6 +112,17 @@ figure {
   justify-content: space-between;
   color: var(--text-color);
 }
+.navigation__agencja:hover,
+navigation__agencja:focus,
+navigation__portfolio:hover,
+navigation__portfolio:focus,
+navigation__kontakt:hover,
+navigation__kontakt:focus {
+  text-decoration: none;
+  color: var(--brand-color);
+  cursor: pointer;
+}
+
 .contact {
   display: inline-flex;
 
@@ -571,7 +581,7 @@ ul {
   font-weight: 400;
   width: 231px;
   height: 21px;
-text-decoration: none;
+  text-decoration: none;
   color: var(--footer-color);
 }
 
