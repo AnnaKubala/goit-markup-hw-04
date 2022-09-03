@@ -492,6 +492,7 @@ ul {
 }
 
 .container__footer {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -524,9 +525,10 @@ ul {
   width: 246px;
   height: 21px;
 }
-.address-box {
+.footer-box {
+  display: block;
+
   width: 246px;
-  height: 21px;
   margin-right: 70px;
 }
 .contact_footer {
@@ -558,7 +560,7 @@ ul {
   background: var(--footer_bg-color);
 }
 .social__footer {
-  /* display: block; */
+  display: block;
   margin-top: 0;
 
   width: 206px;
