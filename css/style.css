@@ -437,6 +437,21 @@ ul {
   background-color: var(--main-color);
   fill: var(--fill-color);
 }
+.social__media-icon a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 50%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--main-color);
+  fill: var(--fill-color);
+}
+
 .social__media-icon:hover svg,
 .social__media-icon:focus svg {
   border-radius: 50%;
@@ -556,7 +571,7 @@ ul {
   font-weight: 400;
   width: 231px;
   height: 21px;
-
+text-decoration: none;
   color: var(--footer-color);
 }
 
@@ -566,6 +581,7 @@ ul {
   width: 231px;
   height: 21px;
   margin-top: 9px;
+  text-decoration: none;
   color: var(--footer-color);
 }
 .footer__bg {
