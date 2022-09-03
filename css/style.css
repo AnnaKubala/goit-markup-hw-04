@@ -135,10 +135,18 @@ figure {
   gap: 10px;
 }
 .tel {
-  display: flex;
+  display: inline-flex;
+  text-decoration: none;
   color: var(--text2-color);
   cursor: pointer;
   gap: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  padding-left: 20px;
 }
 .contact a {
   text-decoration: none;
@@ -146,7 +154,7 @@ figure {
 }
 
 .contact__link:focus {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--brand-color);
 }
 .contact__link:hover {
@@ -188,8 +196,9 @@ ul {
   fill: var(--brand-color);
 }
 .h1__bg {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
+  margin: 0 auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -566,7 +575,7 @@ ul {
 }
 .social__footer {
   display: block;
-  margin-top: 0;
+  padding-top: 12px;
 
   width: 206px;
   height: 80px;
