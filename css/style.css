@@ -200,6 +200,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 200px;
 }
 .h1__text {
   display: flex;
