@@ -640,7 +640,7 @@ ul {
   background: var(--filters-color);
   /* shadow-middle */
   border: none;
-  /* border-radius: 4px; */
+  border-radius: 4px;
   cursor: pointer;
 }
 .filter__text {
@@ -658,7 +658,7 @@ ul {
   width: 93px;
   height: 38px;
   background: var(--filters-color);
-  /* border-radius: 4px; */
+  border-radius: 4px;
   cursor: pointer;
   border: none;
 }
@@ -668,7 +668,7 @@ ul {
   height: 38px;
 
   background: var(--filters-color);
-  /* border-radius: 4px; */
+  border-radius: 4px;
   cursor: pointer;
   border: none;
 }
@@ -676,7 +676,7 @@ ul {
   width: 91px;
   height: 38px;
   background: var(--filters-color);
-  /* border-radius: 4px; */
+  border-radius: 4px;
   cursor: pointer;
   border: none;
 }
@@ -684,7 +684,7 @@ ul {
   width: 121px;
   height: 38px;
   background: var(--filters-color);
-  /* border-radius: 4px; */
+  border-radius: 4px;
   cursor: pointer;
   border: none;
 }
@@ -708,6 +708,13 @@ ul {
 
   border: 1px solid var(--border-2-color);
 }
+.project_box:hover,
+.project_box:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+
 .figcaption {
   display: block;
   width: 370px;
