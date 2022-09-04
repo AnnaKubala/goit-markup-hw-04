@@ -117,17 +117,20 @@ navigation__agencja:focus,
 navigation__portfolio:hover,
 navigation__portfolio:focus,
 navigation__kontakt:hover,
-navigation__kontakt:focus {
+navigation__kontakt:focus,
+icons__header:hover,
+icons__header:focus {
   text-decoration: none;
   color: var(--brand-color);
+  fill: var(--brand-color);
   cursor: pointer;
 }
-
+.icons__header {
+}
 .contact {
   display: inline-flex;
 
   padding-left: 315px;
-  gap: 10px;
   justify-content: center;
   align-items: center;
 
@@ -140,16 +143,11 @@ navigation__kontakt:focus {
 }
 .e-mail {
   display: flex;
-  color: var(--text2-color);
-  cursor: pointer;
-  gap: 10px;
 }
 .tel {
   display: inline-flex;
   text-decoration: none;
-  color: var(--text2-color);
-  cursor: pointer;
-  gap: 10px;
+
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -162,14 +160,16 @@ navigation__kontakt:focus {
   text-decoration: none;
   display: flex;
 }
-
-.contact__link:focus {
+.contact__link {
   text-decoration: none;
-  color: var(--brand-color);
+  color: var(--text2-color);
+  fill: var(--text2-color);
 }
-.contact__link:hover {
+.contact__link:hover,
+contact__link:focus {
   text-decoration: none;
   color: var(--brand-color);
+  fill: var(--brand-color);
 }
 .active__link:hover {
   color: var(--brand-color);
@@ -190,21 +190,14 @@ ul {
 }
 .icon-envelope {
   display: flex;
-  fill: var(--fill-color);
-  cursor: pointer;
+
+  margin-right: 10px;
 }
 .icon-smartphone {
   display: flex;
-  fill: var(--fill-color);
-  cursor: pointer;
+  margin-right: 10px;
 }
 
-.icon-envelope:hover,
-.icon-envelope:focus,
-.icon-smartphone:hover,
-.icon-smartphone:focus {
-  fill: var(--brand-color);
-}
 .h1__bg {
   max-width: 1600px;
   height: 600px;
