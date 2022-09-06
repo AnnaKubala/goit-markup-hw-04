@@ -506,7 +506,7 @@ ul {
   transition: 0.3s;
 }
 
-.social__media-icon:focus svg {
+.social__media-icon:focus-within svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
@@ -548,7 +548,7 @@ ul {
 }
 
 .client_box:hover,
-.client_box:focus {
+.client_box:focus-within {
   border-radius: 4px;
   border-color: var(--brand-color);
   border-style: solid;
@@ -701,7 +701,7 @@ ul {
 }
 
 .social__footer-icon:hover svg,
-.social__footer-icon:focus svg {
+.social__footer-icon:focus-within svg {
   border-radius: 50%;
   background-size: contain;
   background-position: center;
